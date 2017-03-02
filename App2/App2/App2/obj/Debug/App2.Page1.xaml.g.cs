@@ -23,10 +23,14 @@ namespace App2 {
         private global::Xamarin.Forms.Button MainImg;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label Test;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Page1));
             controlGrid = this.FindByName<global::Xamarin.Forms.Grid>("controlGrid");
             MainImg = this.FindByName<global::Xamarin.Forms.Button>("MainImg");
+            Test = this.FindByName<global::Xamarin.Forms.Label>("Test");
         }
     }
 }

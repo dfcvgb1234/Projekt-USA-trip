@@ -3,15 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App2.Page1"
              Title="ByggeTinder"
-             BackgroundColor="#cccccc">
+             BackgroundColor="White">
   
      <ContentPage.Resources>
        <ResourceDictionary>
          <Style x:Key="PictureButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#7f7f7f"/>
+                <Setter Property="BackgroundColor" Value="White"/>
          </Style>
          <Style x:Key="VoteButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#b2b2b2"/>
+                <Setter Property="BackgroundColor" Value="#626365"/>
          </Style>
        </ResourceDictionary>
      </ContentPage.Resources>
@@ -27,18 +27,20 @@
           <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         
-        <Button x:Name="MainImg" Clicked="Handle_moreInfo" Grid.Row="1" TextColor="Black" FontSize="60" Grid.ColumnSpan="2" Image="img1.png" Style="{StaticResource PictureButton}"/>
+        <Button x:Name="MainImg" Clicked="Handle_moreInfo" Grid.Row="1" TextColor="Black" FontSize="60" Grid.ColumnSpan="2" Image="icon.png" Style="{StaticResource PictureButton}"/>
         <Button Text="MENU" Grid.Row="0" Grid.Column="0" FontSize="18" TextColor="Black"/>
-        <Label Text="Slagelse Kommune" Grid.Row="0" Grid.Column="1" FontSize="18" TextColor="Gray"/>
+        <Label x:Name="Test" Text="Slagelse Kommune" Grid.Row="0" Grid.Column="1" FontSize="18" TextColor="Gray"/>
 
         <Button Text="Syntes ikke godt om" Clicked="handle_dislike"
                 Grid.Row="2"
                 Grid.Column="1"
+                TextColor="White"
                 Style="{StaticResource VoteButton}"/>
 
         <Button Text="Syntes godt om" Clicked="handle_like"
                 Grid.Row="2"
                 Grid.Column="0"
+                TextColor="White"
                 Style="{StaticResource VoteButton}"/>
       </Grid>
     </ContentPage.Content>

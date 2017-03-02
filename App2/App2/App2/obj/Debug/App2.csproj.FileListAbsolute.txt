@@ -15,5 +15,20 @@ c:\users\mc iceberg\documents\visual studio 2015\Projects\App2\App2\App2\obj\Deb
 C:\Users\Mc IceBerg\documents\visual studio 2015\Projects\App2\App2\App2\obj\Debug\App2.csprojResolveAssemblyReference.cache
 C:\Users\Mc IceBerg\documents\visual studio 2015\Projects\App2\App2\App2\obj\Debug\App2.dll.mdb
 C:\Users\Mc IceBerg\documents\visual studio 2015\Projects\App2\App2\App2\bin\Debug\App2.dll.mdb
-C:\Users\Mc IceBerg\documents\visual studio 2015\Projects\App2\App2\App2\obj\Debug\App2.dll.mdb
-C:\Users\Mc IceBerg\documents\visual studio 2015\Projects\App2\App2\App2\bin\Debug\App2.dll.mdb
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\App2.dll
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\App2.pdb
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\obj\Debug\App2.csprojResolveAssemblyReference.cache
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\obj\Debug\App2.App.xaml.g.cs
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\obj\Debug\App2.Page1.xaml.g.cs
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\obj\Debug\App2.dll
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\obj\Debug\App2.pdb
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\obj\Debug\App2.dll.mdb
+C:\Users\Mc IceBerg\Documents\Apps\projekt-USA-trip\App2\App2\App2\bin\Debug\App2.dll.mdb
