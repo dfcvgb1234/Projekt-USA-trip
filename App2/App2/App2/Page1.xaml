@@ -5,38 +5,52 @@
              Title="ByggeTinder"
              BackgroundColor="White">
   
-     <ContentPage.Resources>
+     <ContentPage.Resources>       
        <ResourceDictionary>
+         <!--Stylen på MainImg-->
          <Style x:Key="PictureButton" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="White"/>
          </Style>
+         <!--Stylen på MainImg-->
          <Style x:Key="VoteButton" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#626365"/>
          </Style>
-       </ResourceDictionary>
+       </ResourceDictionary>     
      </ContentPage.Resources>
+  
      <ContentPage.Content>
+       <!--Vælger at der skal være gridLayout-->
       <Grid x:Name="controlGrid" RowSpacing="1">
+        
+        <!--Mængden af rows-->
         <Grid.RowDefinitions>
           <RowDefinition Height="23"/>
           <RowDefinition Height="450"/>
           <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        
+        <!--Mængden af Columns-->
         <Grid.ColumnDefinitions>
           <ColumnDefinition Width="*"/>
           <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        
-        <Button x:Name="MainImg" Clicked="Handle_moreInfo" Grid.Row="1" TextColor="Black" FontSize="60" Grid.ColumnSpan="2" Image="icon.png" Style="{StaticResource PictureButton}"/>
+        <!--MainImg knap-->
+        <Button x:Name="MainImg" Clicked="Handle_moreInfo" Grid.Row="1" TextColor="Black" FontSize="60" Grid.ColumnSpan="2" Image="sushi1.jpg" Style="{StaticResource PictureButton}"/>
+
+        <!--En WIP knap, som kommer til at fungere som menu-->
         <Button Text="MENU" Grid.Row="0" Grid.Column="0" FontSize="18" TextColor="Black"/>
+
+        <!--En label der viser Slagelse Kommune-->
         <Label x:Name="Test" Text="Slagelse Kommune" Grid.Row="0" Grid.Column="1" FontSize="18" TextColor="Gray"/>
 
+        <!--Dislike knappen-->
         <Button Text="Syntes ikke godt om" Clicked="handle_dislike"
                 Grid.Row="2"
                 Grid.Column="1"
                 TextColor="White"
                 Style="{StaticResource VoteButton}"/>
 
+        <!--Like knappen-->
         <Button Text="Syntes godt om" Clicked="handle_like"
                 Grid.Row="2"
                 Grid.Column="0"
